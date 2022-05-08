@@ -1,0 +1,111 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.gradient {
+  background-color: #00DBDE;
+  background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+}
+.gradient2 {
+    background-color: #000000;
+    background-image: linear-gradient(90deg, #000000 0%, #E84393 100%);
+}
+.gradient3 {
+  background-color: #28313B;
+  background-image: linear-gradient(90deg, #28313B 0%, #485461 100%);
+}
+.container1{
+  margin-top:100px;
+}
+
+.counter-box {
+display: block;
+background: #f6f6f6;
+padding: 40px 20px 37px;
+text-align: center
+}
+
+.counter-box p {
+margin: 5px 0 0;
+padding: 0;
+color: #909090;
+font-size: 18px;
+font-weight: 500
+}
+
+.counter-box i {
+font-size: 60px;
+margin: 0 0 15px;
+color: #d2d2d2
+}
+
+.counter { 
+display: block;
+font-size: 32px;
+font-weight: 700;
+color: #666;
+line-height: 28px
+}
+
+.counter-box.colored {
+    background: #3acf87;
+}
+
+.counter-box.colored p,
+.counter-box.colored i,
+.counter-box.colored .counter {
+color: #fff
+}
+
+.modalback {
+
+background: #000000;
+
+}
+
+.modal-style {
+  background-image: linear-gradient(125.83deg, rgb(30, 42, 34) 0%, rgb(122, 37, 33) 80.09%);
+  font-family: "SF Pro Display";
+  color: white;
+  box-shadow: 1px 1px 50px #f09000;
+  -webkit-border-radius: 20px !important;
+  -moz-border-radius: 20px !important;
+  border-radius: 20px !important;
+  -webkit-border: 20px !important;
+  -moz-border: 20px !important;
+  border: 20px !important;
+}
